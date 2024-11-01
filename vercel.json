@@ -1,8 +1,12 @@
 {
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "https://t6a4m-8090.csb.app/$1"
-    }
-  ]
+  "rewrites": [
+    {
+      "source": "/", 
+      "destination": "https://files.oaiusercontent.com/"
+    },
+    {
+      "source": "/:path*", 
+      "destination": "https://files.oaiusercontent.com/:path*"
+    }
+  ]
 }
