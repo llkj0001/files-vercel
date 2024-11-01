@@ -1,12 +1,12 @@
 {
-  "rewrites": [
-    {
-      "source": "/", 
-      "destination": "https://files.oaiusercontent.com/"
-    },
-    {
-      "source": "/:path*", 
-      "destination": "https://files.oaiusercontent.com/:path*"
-    }
-  ]
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "https://files.oaiusercontent.com/"
+        },
+        {
+            "source": "/:path*",
+            "destination": "https://files.oaiusercontent.com/:path*"
+        }
+    ]
 }
